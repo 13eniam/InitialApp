@@ -1,0 +1,46 @@
+README
+
+bower install directory
+----------------------
+
+To customize the location of the bower packages installed create a .bowerrc file and give the path to the installation directory for the directory key
+
+
+Cleaning and compiling CoffeeScript files in testapp
+-----------------------------------------------------
+
+To clean src folder and compile CoffeeScript files into javascript files, there is a shell script called mm that I have put in ~/bin that will do this for you as follows:
+
+
+To clean your coffeescript files do:
+
+mm -f
+
+from your application root directory
+
+e.g.
+
+cd testapp
+mm -f
+
+To compile your coffeescript files do:
+
+mm -c
+
+
+Starting the MacOs Apache server and accessing your application
+---------------------------------------------------------------
+
+sudo apachectl start/restart
+
+If it doesn't start, do sudo apachectl -t to check if you have any errors in the configuration files. If you do, correct the error and restart apache again.
+
+Once the server is started access your application by navigating to:
+
+http://localhost/testapp
+
+Your web files should be under:
+
+~/Sites/testapp
+
+

@@ -1,0 +1,26 @@
+{
+  "name": "testapp",
+  "authors": [
+    "Beniam Haile <beniam.haile@fireeye.com>"
+  ],
+  "description": "Test App",
+  "main": "main.js",
+  "keywords": [
+    "Test",
+    "Bench"
+  ],
+  "license": "MIT",
+  "homepage": "www.benselam.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "^2.2.0",
+    "jquery": "^3.0.0"
+  }
+}
